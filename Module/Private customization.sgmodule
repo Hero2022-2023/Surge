@@ -1,0 +1,9 @@
+#!name=🛵Private customization
+#!desc=修订MITM；跳过MOA
+
+[General]
+allow-hotspot-access = true
+skip-proxy = %INSERT% localhost, *.chinamobile.com,moa.sn.chinamobile.com
+
+[MITM]
+hostname = -api.revenuecat.com,-*.chinamobile.com
